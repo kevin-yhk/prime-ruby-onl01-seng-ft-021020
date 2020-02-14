@@ -5,3 +5,7 @@ def prime?(number)
     prime_range = (beginning_number.. number).to_a 
     prime_range.none? do |prime|
       number % prime == 0 
+    end
+  else
+    fail
+    
