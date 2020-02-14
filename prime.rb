@@ -2,7 +2,7 @@
 def prime?(number)
   beginning_number > 2 
   if number > 1 
-    prime_range = (beginning_number.. number).to_a 
+    prime_range = (beginning_number.. number-1).to_a 
     prime_range.none? do |prime|
       number % prime == 0 
     end
