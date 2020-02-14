@@ -4,3 +4,4 @@ def prime?(number)
   if number > 1 
     prime_range = (beginning_number.. number).to_a 
     prime_range.none? do |prime|
+      number % prime == 0 
