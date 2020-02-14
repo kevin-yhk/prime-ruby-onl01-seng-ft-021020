@@ -1,12 +1,12 @@
 # Add  code here!
 def prime?(number)
-  beginning_number > 2 
-  if number > 1 
-    prime_range = (beginning_number.. number-1).to_a 
-    prime_range.none? do |prime|
-      number % prime == 0 
+  beginning = 2
+  if number > 1
+    num_range = (beginning..number-1).to_a
+    num_range.none? do |prime| 
+      number % prime == 0
     end
   else
-    false 
+    false
   end
 end
