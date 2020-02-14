@@ -7,5 +7,5 @@ def prime?(number)
       number % prime == 0 
     end
   else
-    fail
-    
+    false 
+  
