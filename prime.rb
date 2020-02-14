@@ -2,4 +2,4 @@
 def prime?(number)
   beginning_number > 2 
   if number > 1 
-    prime_range = (beginning_number)
+    prime_range = (beginning_number.. number)
